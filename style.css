@@ -1,0 +1,177 @@
+body {
+  background-color: black;
+}
+
+
+
+.nav-container {
+  height: 56px;
+  padding: 0 16px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.sidebar-open {
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-open:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo a {
+  width: 100px;
+}
+
+.country {
+  color: white;
+  font-size: 10px;
+  margin-left: 8px;
+  margin-top: -7px;
+}
+
+.logo svg {
+  fill: white;
+}
+
+.search {
+  width: 536px;
+  display: flex;
+  border: 2px solid hsl(0, 0%, 18.82%);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.searchbar-container .search input {
+  background: none;
+  border: none;
+  width: 100%;
+  padding: 6px 10px;
+  color: white;
+}
+
+.search-icon {
+  background: #222222;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mike {
+  background: #222222;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.users-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bell-icon span {
+  color: white;
+  background: red;
+  min-height: 20px;
+  min-width: 20px;
+  font-size: 12px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  margin-left: -4px;
+}
+
+.bell-icon {
+  width: unset;
+}
+
+.userimage img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar-menu {
+  width: 50px;
+  text-align: center;
+  padding: 4px 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+
+}
+
+.sidebar-menu p {
+  margin: 10px 0;
+  font-size: 10px;
+  color: white;
+}
+
+.sidebar-menu:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.tags-container .active {
+  background-color: #fff;
+  color: #3F3F3F;
+}
+
+.tags-container button {
+  background-color: #3F3F3F;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  font-size: 14px;
+  margin: 0 6px;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
